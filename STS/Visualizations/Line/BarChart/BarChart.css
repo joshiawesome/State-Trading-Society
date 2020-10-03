@@ -1,0 +1,9 @@
+#vis-container{
+  margin-right: -100px;
+
+}
+body{
+  fill: white;
+  background-color: #172F47;
+  stroke-width: 0.5px;
+}
