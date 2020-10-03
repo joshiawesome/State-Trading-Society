@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="CSS/Style.css" rel="stylesheet">
+    <link href="Visualizations/Line/LineChart1/LineChart1Style.css" rel="stylesheet">
+    <link href="Visualizations/Line/LineChart2/LineChart2Style.css" rel="stylesheet">
+    <title>Login Page</title>
+    <script src="//d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-time.v2.min.js"></script>
+    <script src="https://d3js.org/d3-time-format.v3.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light py-0 bg-custom">
+      <a class="navbar-brand py-0" href="">
+        <img src="Images/navy2.jpg" width="210" height="120" alt="">
+      </a>
+
+      <div class="row">
+
+        <div class="col-sm">
+          <svg id="visualisation1" width="200" height="60">
+            <text id="SPX" y="50" style="font-size: 10px;">^SPX</text>
+          </svg>
+        </div>
+
+        <div class="col-sm">
+          <svg id="visualisation2" width="200" height="60">
+            <text id="VIX" y="50" style="font-size: 10px;">^VIX</text>
+          </svg>
+        </div>
+
+      </div>
+    </nav>
+    <script src="Visualizations/Line/LineChart1/LineChart1.js"></script>
+    <script src="Visualizations/Line/LineChart2/LineChart2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

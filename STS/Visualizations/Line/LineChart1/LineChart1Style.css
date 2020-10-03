@@ -1,0 +1,7 @@
+.tick{
+  opacity: 0;
+}
+#SPX{
+  font-weight: bold;
+  fill: white;
+}
